@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portofolio website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span class="logo-text">Portofolio</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#education">Riwayat Pendidikan</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Halo, aku <span class="name">Shabina</span></h1>
+      <p class="subtitle">Mahasiswa Universitas Islam Kalimantan Muhammad Arsyad Al-Banjari</p>
+      <button class="cta-button">Lihat</button>
+    </div>
+    <div class="hero-image">
+      <img src="shabina.jpg" alt="Profile Image">
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="section-header">
+      <h2>Tentang saya</h2>
+      <div class="butterfly-divider">
+        <div class="butterfly-icon"></div>
+      </div>
+    </div>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="profil 2.jpg" alt="About Me">
+      </div>
+      <div class="about-text">
+        <h3>Halo!</h3>
+        <p>Halo perkenalkan Nama saya Firda Noor Shabina, biasa di panggil Shabina. Saya mempunyai ketertarikan di bidang IT sebab itu saya masuk jurusan teknik informatika. Dan saat ini sedang menjalin pendidikan di UNISKA MAB, saya juga lagi mempelajari tentang frond end developer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <div class="section-header">
+      <h2>Riwayat Pendidikan</h2>
+      <div class="butterfly-divider">
+        <div class="butterfly-icon"></div>
+      </div>
+    </div>
+    <div class="education-content">
+      <div class="education-item">
+        <h3>Madrasah Tsanawiyah Negeri 1 Tapin (2017-2020)</h3>
+      </div>
+      <div class="education-item">
+        <h3>Sekolah Menengah Kejuruan Negeri 1 Tapin Selatan (2020-2023)</h3>
+      </div>
+      <div class="education-item">
+        <h3>Universitas Islam Kalimantan Muhammad Arsyad Al-Banjari(2024-sekarang)</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="section-header">
+      <h2>kontak saya</h2>
+      <div class="butterfly-divider">
+        <div class="butterfly-icon"></div>
+      </div>
+    </div>
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon email-icon"></div>
+            <span>firdashabina29@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon location-icon"></div>
+            <span>Banjarmasin, Kalimantan selatan</span>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon instagram-icon"></div>
+            <span><a href="https://instagram.com/shabinazy" target="_blank">Instagram</a></span>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon github-icon"></div>
+            <span><a href="https://github.com/shabinazy" target="_blank">GitHub</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Nama" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder="Pesan" required></textarea>
+          </div>
+          <button type="submit" class="submit-button">kirim pesan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
